@@ -1,1 +1,1 @@
-console.log('hello world from Tekton CD.');
+console.log('hello world from Tekton.');
