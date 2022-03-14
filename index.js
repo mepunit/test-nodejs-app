@@ -1,1 +1,1 @@
-console.log('hello world from Tekton.');
+console.log('hello world from Tekton Event Listener.');
