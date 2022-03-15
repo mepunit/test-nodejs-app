@@ -1,3 +1,15 @@
-console.log('hello world from Tekton Event Listener.....');
-console.log('bye bye');
-console.log('waiting....for..run..to......');
+const express = require('express');
+const app = express();
+
+app.get("/info", (req, res) => {
+    res.send({
+        result: "success",
+        data: {
+            version: "1.2.3"
+        }
+    });
+});
+
+app.listen(3000, () => {
+    console.log('server ready');
+});
