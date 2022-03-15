@@ -1,3 +1,3 @@
 console.log('hello world from Tekton Event Listener.....');
 console.log('bye bye');
-console.log('waiting....for..');
+console.log('waiting....for..run');
