@@ -11,5 +11,5 @@ app.get("/info", (req, res) => {
 });
 
 app.listen(3000, () => {
-    console.log('server ready with few more changes....and');
+    console.log('server ready with few more changes....and..');
 });
